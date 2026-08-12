@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kushal Ravi H R | Java Full Stack Developer</title>
+<style>
+  :root {
+    --navy: #0b2545;
+    --navy-light: #13315c;
+    --accent: #ffb703;
+    --bg: #f7f9fc;
+    --text: #1e293b;
+    --muted: #5a6b82;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--navy), var(--navy-light));
+    color: #fff;
+    padding: 4rem 1.5rem 3rem;
+    text-align: center;
+  }
+  header h1 { font-size: 2.4rem; margin-bottom: 0.4rem; }
+  header p.tagline { font-size: 1.1rem; color: #cbd8ee; margin-bottom: 1.2rem; }
+  header .links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.6rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+  }
+  header .links a:hover { background: rgba(255,255,255,0.15); }
+
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+  section h2 {
+    font-size: 1.5rem;
+    color: var(--navy);
+    margin-bottom: 1.2rem;
+    border-bottom: 3px solid var(--accent);
+    display: inline-block;
+    padding-bottom: 0.3rem;
+  }
+  .about p { max-width: 700px; color: var(--muted); }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem;
+  }
+  .skill-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .skill-card h3 { color: var(--navy); font-size: 1rem; margin-bottom: 0.6rem; }
+  .skill-card ul { list-style: none; color: var(--muted); font-size: 0.92rem; }
+  .skill-card li { margin-bottom: 0.3rem; }
+
+  .project-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-left: 4px solid var(--accent);
+  }
+  .project-card h3 { color: var(--navy); margin-bottom: 0.4rem; }
+  .project-card .stack { font-size: 0.85rem; color: var(--accent); font-weight: 600; margin-bottom: 0.6rem; }
+  .project-card p { color: var(--muted); font-size: 0.95rem; }
+
+  .exp-item { margin-bottom: 1.6rem; }
+  .exp-item h3 { color: var(--navy); font-size: 1.05rem; }
+  .exp-item .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .exp-item ul { margin-left: 1.2rem; color: var(--text); font-size: 0.95rem; }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Kushal Ravi H R</h1>
+  <p class="tagline">Java Full Stack Developer &nbsp;|&nbsp; SAP ABAP &nbsp;|&nbsp; Aspiring AI/ML Engineer</p>
+  <div class="links">
+    <a href="mailto:kushalravihr@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/kushal-ravi-h-r2003" target="_blank">LinkedIn</a>
+    <a href="https://github.com/kushalravi2003" target="_blank">GitHub</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    Computer Science and Engineering graduate with hands-on experience across Java full stack development,
+    SAP ABAP, SAP S/4HANA QA, and machine learning. I've trained students in full stack development, supported
+    backend engineering teams, and validated enterprise-scale SAP test data. Currently seeking entry-level
+    opportunities in Java development, full stack engineering, SAP ABAP, or AI/ML.
+  </p>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>Languages & Core</h3>
+      <ul>
+        <li>Core Java</li>
+        <li>SQL</li>
+        <li>HTML, CSS, JavaScript</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <h3>Frameworks</h3>
+      <ul>
+        <li>Spring Boot / REST APIs</li>
+        <li>Hibernate</li>
+        <li>ReactJS</li>
+        <li>JDBC, Servlets, JSP</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <h3>Databases & Enterprise</h3>
+      <ul>
+        <li>MySQL</li>
+        <li>SAP ABAP</li>
+        <li>SAP S/4HANA (MM, Supply Chain & Logistics)</li>
+      </ul>
+    </div>
+    <div class="skill-card">
+      <h3>Tools</h3>
+      <ul>
+        <li>Git, GitHub</li>
+        <li>VS Code, Eclipse</li>
+        <li>Jupyter Notebook</li>
+        <li>Machine Learning & Data Preprocessing</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>SAP S/4HANA Stock Transfer & OBD Test Data Validation</h3>
+    <div class="stack">SAP S/4HANA · QA Testing · ABAP</div>
+    <p>
+      Validated business scenarios for stock transfer orders (STO), outbound deliveries (OBD), consignment,
+      and material movement across multiple plants and locations (JNPT, Dahej, Kandla, Mumbai, Pipavav).
+      Verified delivery types, consignment codes, route codes, and material quantities against Sprint Ticket
+      requirements to support QA sign-off for a live enterprise SAP process.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>ABAP-Based Test Data Validation & Reporting</h3>
+    <div class="stack">SAP ABAP · Data Validation · Reporting Logic</div>
+    <p>
+      Designed ABAP-oriented data structures and query logic to validate SAP test data tables covering OBD
+      tokens, trip numbers, shipment details, tax data, and transaction logs. Built reporting logic used by
+      QA to check token usage status and transaction entries across repeated regression cycles.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>Java Full Stack Web Application</h3>
+    <div class="stack">Java · Spring Boot · ReactJS · MySQL · Hibernate</div>
+    <p>
+      Built full stack features during internship using Core Java, Spring Boot REST APIs, Hibernate, and a
+      ReactJS frontend, connected to a MySQL database. Developed and styled frontend pages with HTML, CSS,
+      and JavaScript as part of a collaborative real-world project.
+    </p>
+  </div>
+</section>
+
+<section class="experience">
+  <h2>Experience</h2>
+
+  <div class="exp-item">
+    <h3>Full Stack Trainer — Behave Like Compiler</h3>
+    <div class="meta">Mar 2025 – Present · Bengaluru, India</div>
+    <ul>
+      <li>Delivered Full Stack Java training to multiple batches across different colleges</li>
+      <li>Conducted hands-on sessions covering Core Java, SQL, HTML, CSS, JavaScript</li>
+      <li>Guided students through coding exercises and real-world projects</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <h3>Intern — SAP ABAP & Java Backend Development, Caliper Business Solutions</h3>
+    <div class="meta">Jun 2025 – Mar 2026 · Bengaluru, India</div>
+    <ul>
+      <li>Worked on SAP ABAP tasks alongside Java backend development support</li>
+      <li>Contributed within a professional cross-functional team environment</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <h3>Java Full Stack Development Intern — Pentagon Space Pvt. Ltd.</h3>
+    <div class="meta">Jan 2025 – Jul 2025 · Bengaluru, India</div>
+    <ul>
+      <li>Gained hands-on experience in Core Java and SQL</li>
+      <li>Practiced ReactJS, REST APIs, Spring Boot, and Hibernate on full stack projects</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Kushal Ravi H R. Built with GitHub Pages.
+</footer>
+
+</body>
+</html>
